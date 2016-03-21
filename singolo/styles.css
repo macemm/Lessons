@@ -14,7 +14,7 @@ body {
 }
 
 .navigation {
-    width: 950px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -23,9 +23,50 @@ body {
 .links {
     float: right;
     color: #44495b;
+    padding-top: 30px;
 }
 
 .links a {
     color: white;
     text-decoration: none;
+    font-size: .75em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.salmon {
+    color: #f06c64;
+}
+
+.logo {
+    float: left;
+    margin-top: 28px;
+    font-size: 1.25em;
+}
+
+.banner {
+    background-color: #f06c64;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner img {
+    width: 90%;
+    max-width: 950px;
+}
+
+@media screen and (max-width: 550px) {
+    
+    .links {
+   
+    padding-top: 8px;
+    float: left;
+    }
+}
+
+
+
+
+
+
