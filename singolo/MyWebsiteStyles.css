@@ -1,0 +1,35 @@
+body {
+    background-color: #e9f0f1;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    outline: 1px solid yellow;
+}
+
+.header {
+    background-color: #0a3f49;
+    height: 100px;
+}
+
+.navigation {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.links {
+    float: right;
+    color: #44495b;
+    padding-top: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: .75em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
