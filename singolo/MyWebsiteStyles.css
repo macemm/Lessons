@@ -8,28 +8,51 @@ body {
     outline: 1px solid yellow;
 }
 
-.header {
-    background-color: #0a3f49;
-    height: 100px;
+.frontimage img {
+    float: right;
+    max-height: 650px;
+    padding-top:38px;
+    padding-right: 18px;
+}
+
+.star {
+    color: #d27b25;
+}
+
+.sitetitle {
+    color: #d27b25;
+    outline: 6px solid #d27b25;
+    max-width: 350px;
+    margin-top: 150px;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 5em;
+    margin-right: 240px;
 }
 
 .navigation {
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-
-.links {
     float: right;
-    color: #44495b;
+    color: #000000;
     padding-top: 30px;
+    padding-top: 8px;
+    margin: 138px;
+    outline: 2px solid #d27b25;
+    margin-right: 210px;
 }
 
-.links a {
-    color: white;
+.navigation a {
+    color: #d27b25;
     text-decoration: none;
     font-size: .75em;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.glassesimage img {
+    float: right;
+    max-width: 300px;
+    margin-right: 267px;
+    
+}
+
