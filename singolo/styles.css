@@ -4,6 +4,10 @@ body {
     font-family: sans-serif;
 }
 
+section: {
+    max-height: 869px;
+}
+
 * {
     outline: 1px solid yellow;
 }
