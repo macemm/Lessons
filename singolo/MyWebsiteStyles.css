@@ -5,16 +5,15 @@ body {
 }
 
 section {
-    height: 720px;
+    max-height: 720px;
 }
+
+
 
 /** {
     outline: 1px solid yellow;
 }*/
 
-.frontpage {
-    height: 724px;
-}
 
 .frontimage img {
     float: right;
@@ -25,6 +24,10 @@ section {
 
 .star {
     color: #000000;
+}
+
+.star1 {
+    color: #d27b25
 }
 
 .sitetitle {
@@ -62,14 +65,16 @@ section {
     margin-top: 66px;
 }
 
+
 .navigation1 {
     padding: 10px;
     margin-top: 10px;
     outline: 2px solid #d27b25;
     margin-top: 20px;
-    max-width: 450px;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .navigation1 a {
@@ -87,10 +92,12 @@ section {
 }
 
 .aboutparagraph {
-    max-width: 600px;
-    max-height: 100px;
+    max-width: 400px;
+    max-height: 200px;
     outline: 2px solid #000000;
     margin-left: 200px;
+    padding: 20px;
+    text-align: right;
 }
 
 .about2 {
@@ -98,6 +105,16 @@ section {
     outline: 2px solid #d27b25;
     color: #d27b25;
     max-width: 400px;
-    max-height:100px; 
+    max-height:100px;
+    padding: 15px;
+    float: right;
+    margin-right: 300px;
+}
+
+.aboutdrawing img {
+    max-height: 200px;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
